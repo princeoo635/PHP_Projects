@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <h1> form</h1>
+        <form action="form.php" method="post">
+            <div class="box">
+                <label for="name">name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your Name">
+            </div>
+            <div class="box">
+                <label for="email">email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+            </div>
+            <div class="box">
+                <div>
+                     <label for="gender">gender :</label>
+                    <input type="radio" name="gender" value="M"><span>male</span>
+                    <input type="radio" name="gender" value="F"><span>female</span>
+                    <input type="radio" name="gender" value="O"><span>other</span>
+                </div>
+            </div>
+            <div class="box">
+                <label for="mobile">mobile</label>
+                <input type="number" id="mobile" name="mobile" placeholder="Enter your mobile no. ">
+            </div>
+            <div class="box">
+                <label for="password">password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password">
+            </div>
+            <div class="btn">
+                <button type="submit">save</button>
+                <button type="reset">reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
