@@ -1,0 +1,32 @@
+.container{
+    max-width: 1200px;
+    margin: 20px auto;
+}
+table{
+    width: 100%;
+}
+button{
+    width: 120px;
+    height: 25px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0.3px solid rgb(116, 112, 112);
+}
+button a{
+    
+    text-transform: uppercase;
+    color: ghostwhite;
+    text-decoration: none;
+   
+}
+#create{
+    background-color: rgb(14, 66, 48);
+  
+}
+#delete{
+    background-color: rgb(66, 14, 20);
+}
+#update{
+    background-color: rgba(14, 66, 48, 0.77);
+}
